@@ -1,0 +1,15 @@
+{
+  "name": "Recordspaces",
+  "version": "0.0.1",
+  "description": "Document management for everyone!",
+  "private": true,
+  "scripts": {
+    "start": "node rsapp.js"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "backbone": "1.0.0",
+    "mongodb": "2.4.*",
+    "jade": ""
+  }
+}
