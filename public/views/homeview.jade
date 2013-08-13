@@ -3,8 +3,23 @@ extends layout
 block content
   
   .header
-    
-     
+          
+  .navbar
+    a(class="navbar-brand", href='#') Recordspaces.com
+    - var nblclass = ['nav','navbar-nav']
+    ul(class=nblclass)
+      li.active 
+        a(href'#') Home
+      li 
+        a(href'#') Link 1
+      li 
+        a(href'#') Link 2
+      
+    ul(class=['nav','navbar-nav', 'pull-right'])  
+      - var nbbclass = ['btn','btn-default','navbar-btn']
+      button.button(class=nbbclass) Sign in  
+        
+      
   .container
     .row-fluid
       #content.span12
