@@ -3,32 +3,13 @@ extends layout
 block content
   
   .header        
-    .navbar.navbar-inverse.navbar-fixed-top
-      a.navbar-brand(href='#') Recordspaces
-      
-      ul.nav.navbar-nav 
-        li.active 
-          a(href'#') Home
-        li 
-          a(href'#') Link 1
-        li 
-          a(href'#') Link 2
-      
-      ul.nav.navbar-nav.pull-right  
-        button.button.btn.btn-default.navbar-btn Sign in  
         
-      
   .container
     .row-fluid
       #content.span12
       
-      h1= title    
       p Welcome to #{title}
 
-      h2 Get your docs online!
-      
-      
-      
     footer.footer
       p.pull-right 
         a(href='#') Back Home 
@@ -36,5 +17,4 @@ block content
         a(href='http://documentcloud.github.com/backbone') Backbone.js, 
         a(href='http://twitter.github.com/bootstrap/') Twitter Bootstrap, 
         a(href='http://nodejs.org/') Node.js, 
-   
-  
+     
