@@ -2,22 +2,20 @@ extends layout
 
 block content
   
-  .header
-          
-  .navbar
-    a(class="navbar-brand", href='#') Recordspaces.com
-    - var nblclass = ['nav','navbar-nav']
-    ul(class=nblclass)
-      li.active 
-        a(href'#') Home
-      li 
-        a(href'#') Link 1
-      li 
-        a(href'#') Link 2
+  .header        
+    .navbar.navbar-inverse.navbar-fixed-top
+      a.navbar-brand(href='#') Recordspaces
       
-    ul(class=['nav','navbar-nav', 'pull-right'])  
-      - var nbbclass = ['btn','btn-default','navbar-btn']
-      button.button(class=nbbclass) Sign in  
+      ul.nav.navbar-nav 
+        li.active 
+          a(href'#') Home
+        li 
+          a(href'#') Link 1
+        li 
+          a(href'#') Link 2
+      
+      ul.nav.navbar-nav.pull-right  
+        button.button.btn.btn-default.navbar-btn Sign in  
         
       
   .container
